@@ -166,10 +166,10 @@ var answerArray = [["<p class='text-center msg'>I love you SOOO much. Do you kno
 //array of images to display after the user selects a right answer
 // img array same as losingimages array
 //1. snack faces. 2 Beans Beans magical fruit. 3. gram(good friend), 4. rock, 5. lucky(thanks you), 6. dadlookuptomeme(supportive), 7. lays(smile), 8. happy bday dad meme
-var imageArray = ["<img class='center-block img-right picDisplay' src='https://i.imgur.com/JS7TCzh.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/rzezxUM.png?1'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/MHjSnmZ.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/BPCNQQ3.png'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/acB9JRa.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/OCSQKgZ.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/bFRQtDb.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/gXVMHGy.jpg'>"];
+var imageArray = ["<img class='center-block img-right picDisplay' src='https://i.imgur.com/JS7TCzh.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/rzezxUM.png?1'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/MHjSnmZ.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/BPCNQQ3.png'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/acB9JRa.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/OCSQKgZ.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/bFRQtDb.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/Jf1L24t.png'>"];
 
 //array of images to display after the user selects a wrong answer
-var losingImages = ["<img class='center-block img-right picDisplay' src='https://i.imgur.com/JS7TCzh.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/rzezxUM.png?1'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/MHjSnmZ.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/BPCNQQ3.png'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/acB9JRa.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/OCSQKgZ.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/bFRQtDb.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/gXVMHGy.jpg'>"];
+var losingImages = ["<img class='center-block img-right picDisplay' src='https://i.imgur.com/JS7TCzh.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/rzezxUM.png?1'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/MHjSnmZ.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/BPCNQQ3.png'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/acB9JRa.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/OCSQKgZ.jpg'>", "<img class='center-block img-right picDisplay' src='https://i.imgur.com/bFRQtDb.jpg'>", "<img class='center-block img-right picDisplay noBorder' src='https://i.imgur.com/Jf1L24t.png'>"];
 
 //set correct answers inside array, index numbers matching the correlating question
 var correctAnswers = [ "<p class='text-center msg'>You are hilarious</p>", "<p class='text-center msg'>You taught me the comedic value of flatulence</p>", "<p class='text-center msg'>You are a great friend</p>", "<p class='text-center msg'>You are my ROCK</p>", "<p class='text-center msg'>Even Lucky is blown away by all the love and sacrifices you make</p>", "<p class='text-center msg'>You never gave up on me</p>", "<p class='text-center msg'>It's hard not to smile knowing you are my Dad</p>", "<p class='text-center msg'>I love you SO much!</p>"];
@@ -185,7 +185,7 @@ var incorrectTally = 0;
 var unansweredTally = 0;
 
 //variable to store audio for the game
-var clickSound = new Audio("BuildThatWallRMX2.mp3");
+var clickSound = new Audio("Queen.mp3");
 
 
 
