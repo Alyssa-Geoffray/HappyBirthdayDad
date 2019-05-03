@@ -1,0 +1,121 @@
+/* Europe trivia stylesheet */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.startbtn{
+    background-color: gold;
+    margin-top: -80px;
+}
+
+#credit {
+  font-size: 15px;
+  color: rgb(15, 13, 2);
+}
+
+h1 {
+    font-family: 'Charmonman', cursive;
+    color: rgb(175, 148, 15);
+    text-shadow: 2px 2px rgb(121, 11, 11);
+}
+
+#lighter {
+  color: rgb(201, 177, 56);
+  font-family: 'Charmonman', cursive;
+}
+
+#lightest {
+  color: rgb(226, 203, 85);
+  font-family: 'Charmonman', cursive;
+}
+
+.picDisplay {
+  height: 400px;
+  border: 2px ridge rgb(175, 148, 15);
+  padding: 5px;
+}
+
+.noBorder {
+  border: none;
+}
+
+.msg {
+  font-family: 'Julius Sans One', serif;
+  color: white;
+  text-shadow: 2px 2px rgb(175, 148, 15);
+}
+
+
+
+.mainDiv {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(175, 148, 15);
+}
+
+.timerText {
+  margin-top: 40px;
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+}
+
+.answer:hover {
+  background: rgb(248, 237, 176);
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: white;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.firstAnswer {
+  margin-top: 40px;
+}
+
+.btn {
+    background-color:  rgb(235, 210, 88);
+    color:  rgb(32, 28, 4);
+    border-color: rgb(163, 142, 22);
+    border-style: outset;
+    border-width: 2px;
+}
+
+.btn:hover {
+    background-color: rgb(252, 246, 216);;
+    color: rgb(235, 210, 88);
+    border-color: rgb(163, 142, 22);
+    border-style: inset;
+    border-width: 1px;
+}
+
+.resetBtn {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+body {
+    background: url("https://i.imgur.com/OpURUzv.jpg") no-repeat center;
+    background-size: cover;
+    color: rgb(175, 148, 15);
+}
